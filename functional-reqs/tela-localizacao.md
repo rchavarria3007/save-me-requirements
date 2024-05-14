@@ -14,3 +14,14 @@ Esta tele é o primeiro passo do fluxo de cadastramento de uma pessoa desapareci
 
 ## Diagramas
 
+```mermaid
+flowchart LR
+   subgraph Home-Screen
+      Save-Me
+   end
+   subgraph Tela-Localizacao
+      Geo-Local-Busca
+   end
+   Save-Me-->Geo-Local-Busca
+   
+```
