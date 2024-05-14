@@ -13,3 +13,18 @@
 ## Dúvidas
 0. Deveríamos ter um PIX para doações para custear despesas de hospedagem?
 1. Quais implicações fiscais de receber doações?
+
+## Diagramas
+
+```mermaid
+flowchart LR
+   subgraph Home-Screen
+      direction LR
+      Save-Me
+      Encontrei-Alguem
+      Buscar-Desaparecido
+   end
+   Save-Me-->Tela_De_Localizacao
+   Encontrei-Alguem-->Busca_Desaparecidos
+   Buscar-Desaparecido-->Busca_Desaparecidos
+```
